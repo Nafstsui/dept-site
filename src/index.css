@@ -1,0 +1,134 @@
+body {
+    margin: auto;
+    background-color: #ebffce;
+}
+
+.fst {
+    color: green;
+}
+
+.nat {
+    border-top: 5px green solid;
+}
+
+.banner-gc {
+    background-image: url("../public/bg-banner.png");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.g-div {
+   padding: 12rem 4rem;
+}
+
+.about-gc {
+    padding: 3rem 1rem;
+}
+
+.banner-gc h1 {
+    color: white;
+}
+
+.banner-gc h5 {
+    color: white;
+}
+
+.banner-gc p {
+    color: white;
+}
+
+.g-viv {
+    padding: 0px;
+}
+
+  .my-nav-style {
+    background: none;
+  }
+
+  .gl-display {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4fde2;
+    padding: 1rem;
+  }
+
+  .gl-h3{
+    text-align: center;
+    margin: 2rem 2rem;
+  }
+
+  .gl-display div h2 {
+    text-align: center;
+  }
+
+  .gl-display div p {
+    text-align: center;
+    
+  }
+
+  .for-gen-gl {
+    margin: 5rem 0rem;
+  }
+
+  .list-for-blog {
+    margin-top: 200px;
+  }
+
+  .list-for-blog li{
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .img-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .blog-link {
+    color: green;
+    font-weight: bold;
+  }
+
+  .center-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accordion-item {
+    background: none;
+  }
+
+  .accordion-button {
+    background: none;
+  }
+
+  .accordion-faqs {
+    margin: 100px 0px;
+  }
+
+  .footer-list li {
+    display: inline;
+    padding: 0.5rem;
+  }
+
+  .footer {
+    background-color: white;
+    padding: 1rem;
+  }
+
+  .footer-justify {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .list-for-blog {
+      margin-top: 50px;
+    }
+  }
